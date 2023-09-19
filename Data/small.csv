@@ -1,0 +1,39 @@
+,league,id,minute,result,X,Y,xG,player,h_a,player_id,situation,season,shotType,match_id,home_team,away_team,home_goals,away_goals,date,player_assisted,lastAction
+1,EPL,479025,41,SavedShot,0.92,0.512000008,0.393575996,Odsonne Edouard,h,3697,SetPiece,2022,Head,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Joachim Andersen,HeadPass
+2,EPL,479026,45,BlockedShot,0.850999985,0.345,0.0557319,Odsonne Edouard,h,3697,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Jordan Ayew,Pass
+3,EPL,479027,45,BlockedShot,0.920999985,0.365999985,0.067060404,Odsonne Edouard,h,3697,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,NA,Rebound
+4,EPL,479028,46,BlockedShot,0.765,0.487999992,0.0250833,Jeffrey Schlupp,h,757,OpenPlay,2022,LeftFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Jordan Ayew,Pass
+5,EPL,479030,51,SavedShot,0.910999985,0.589000015,0.383123994,Eberechi Eze,h,8706,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Wilfried Zaha,Throughball
+6,EPL,479032,65,BlockedShot,0.875,0.307000008,0.041346099,Jeffrey Schlupp,h,757,OpenPlay,2022,LeftFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,NA,None
+7,EPL,479034,71,BlockedShot,0.920999985,0.705999985,0.028413599,Wilfried Zaha,h,522,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Jordan Ayew,Cross
+8,EPL,479035,80,BlockedShot,0.881999969,0.395,0.064033099,Jordan Ayew,h,672,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Nathaniel Clyne,TakeOn
+9,EPL,479036,80,MissedShots,0.894000015,0.614000015,0.062172901,Jean-Philippe Mateta,h,5735,OpenPlay,2022,LeftFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Wilfried Zaha,Goal
+10,EPL,479037,80,MissedShots,0.91,0.472000008,0.089563496,Jeffrey Schlupp,h,757,OpenPlay,2022,LeftFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Jean-Philippe Mateta,None
+11,EPL,479039,84,OwnGoal,0.045999999,0.547000008,0,Marc Guehi,h,7603,OpenPlay,2022,Head,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,NA,Dispossessed
+12,EPL,479020,3,BlockedShot,0.883000031,0.507000008,0.181833997,Gabriel Jesus,a,5543,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,NA,TakeOn
+13,EPL,479021,3,MissedShots,0.935,0.612000008,0.340445995,Gabriel Martinelli,a,7752,OpenPlay,2022,LeftFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,NA,Rebound
+16,EPL,479024,19,Goal,0.975,0.469000015,0.538495004,Gabriel Martinelli,a,7752,FromCorner,2022,Head,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Oleksandr Zinchenko,HeadPass
+17,EPL,479029,50,BlockedShot,0.826999969,0.374000015,0.064032003,Martin Odegaard,a,2517,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Gabriel Martinelli,LayOff
+18,EPL,479031,55,MissedShots,0.781999969,0.252999992,0.046703801,Martin Odegaard,a,2517,DirectFreekick,2022,LeftFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,NA,Standard
+19,EPL,479033,69,MissedShots,0.96,0.327999992,0.078886896,Bukayo Saka,a,7322,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Ben White,Pass
+20,EPL,479038,84,MissedShots,0.95,0.277000008,0.057627302,Bukayo Saka,a,7322,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Thomas Partey,Pass
+21,EPL,479040,86,BlockedShot,0.929000015,0.33,0.096064404,Bukayo Saka,a,7322,OpenPlay,2022,RightFoot,18202,Crystal Palace,Arsenal,0,2,8/5/2022 19:00,Eddie Nketiah,Pass
+22,EPL,479060,0,MissedShots,0.885999985,0.664000015,0.063372098,Aleksandar Mitrovic,h,773,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Bobby Reid,BallRecovery
+23,EPL,479062,23,BlockedShot,0.853000031,0.442999992,0.063876398,João Palhinha,h,10715,SetPiece,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,NA,None
+24,EPL,479063,23,BlockedShot,0.838000031,0.439000015,0.062647201,João Palhinha,h,10715,SetPiece,2022,LeftFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,NA,Foul
+25,EPL,479065,30,BlockedShot,0.85,0.502999992,0.0789022,Harrison Reed,h,910,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Neeskens Kebano,BallTouch
+26,EPL,479066,31,Goal,0.964000015,0.567000008,0.087104201,Aleksandar Mitrovic,h,773,OpenPlay,2022,Head,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Kenny Tete,Aerial
+27,EPL,479068,55,BlockedShot,0.816999969,0.660999985,0.046721,Andreas Pereira,h,922,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Aleksandar Mitrovic,Pass
+28,EPL,479069,56,ShotOnPost,0.893000031,0.295,0.066158302,Neeskens Kebano,h,6840,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Harrison Reed,Pass
+29,EPL,479070,57,SavedShot,0.823000031,0.295,0.0382655,Bobby Reid,h,6827,OpenPlay,2022,LeftFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Andreas Pereira,Pass
+30,EPL,479075,71,Goal,0.885,0.5,0.761169016,Aleksandar Mitrovic,h,773,Penalty,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,NA,Standard
+31,EPL,479061,21,MissedShots,0.929000015,0.359000015,0.0168778,Mohamed Salah,a,1250,OpenPlay,2022,Head,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Trent Alexander-Arnold,Cross
+32,EPL,479064,28,BlockedShot,0.778000031,0.497000008,0.0226731,Jordan Henderson,a,605,FromCorner,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,NA,None
+33,EPL,479067,38,ShotOnPost,0.925999985,0.686999969,0.061388101,Luis Díaz,a,10408,OpenPlay,2022,LeftFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Thiago Alcántara,Pass
+34,EPL,479071,60,SavedShot,0.960999985,0.442000008,0.534129024,Darwin Núñez,a,10720,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Mohamed Salah,Cross
+35,EPL,479072,63,Goal,0.951999969,0.472000008,0.584721029,Darwin Núñez,a,10720,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,NA,None
+36,EPL,479073,66,BlockedShot,0.965,0.585999985,0.456764013,Darwin Núñez,a,10720,OpenPlay,2022,LeftFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Jordan Henderson,Aerial
+37,EPL,479074,68,BlockedShot,0.915999985,0.522000008,0.116672002,Luis Díaz,a,10408,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Darwin Núñez,HeadPass
+38,EPL,479076,75,MissedShots,0.925,0.291000004,0.097081997,Darwin Núñez,a,10720,OpenPlay,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Jordan Henderson,Throughball
+39,EPL,479077,79,MissedShots,0.875,0.61,0.0592186,Fabio Carvalho,a,9501,FromCorner,2022,RightFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,NA,None
+40,EPL,479078,79,Goal,0.920999985,0.48,0.374899,Mohamed Salah,a,1250,OpenPlay,2022,LeftFoot,18203,Fulham,Liverpool,2,2,8/6/2022 11:30,Darwin Núñez,BallTouch
