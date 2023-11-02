@@ -2,6 +2,34 @@
 this file is constructed of small functions that used for xG model evaluation
 """
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+from imblearn.over_sampling import RandomOverSampler, SMOTE
+from imblearn.under_sampling import RandomUnderSampler
+
+class DATASET:
+    def __init__(self, X, y, random_state = None):
+        self.X = X
+        self.y = y
+        self.X_over, self.y_over = RandomOverSampler(random_state = random_state).fit_resample(self.X, self.y)
+        self.X_under, self.y_under = RandomUnderSampler(random_state = random_state).fit_resample(self.X, self.y)
+        
+    def fit(self, model, sampling = "original"):
+        # check if sampling is valid
+        if sampling not in ["original", "over", "under"]:
+            raise ValueError("sampling must be 'original', 'over', or 'under'")
+        # fit model
+        if sampling == "original":
+            model.fit(self.X, self.y)
+        elif sampling == "over":
+            model.fit(self.X_over, self.y_over)
+        elif sampling == "under":
+            model.fit(self.X_under, self.y_under)
+        # return the fitted model
+        return model
 
 def import_epl_data(
     start_year: int,
@@ -31,16 +59,42 @@ def import_epl_data(
     return(pd.concat(df_list).reset_index(drop=True)) # return the concatenated dataframe
 
 def evaluate(
-    pred,
-    y,
-    threshold = 0.5
+    input: np.ndarray, 
+    target: np.ndarray, 
+    threshold: int = 0.5, 
+    verbose: bool = True, 
+    cm: bool = True
 ):
+    """evaluate() is a function that evaluates the performance of the xG model
+    by printing out accuracy, precision, recall, f1 and auc (if verbose = True), 
+    and confusion matrix (if cm = true).
+
+    Args:
+        input (np.ndarray): probability of the model's prediction.
+        target (np.ndarray): the true label of the data.
+        threshold (int, optional): the threshold of the model's prediction. Defaults to 0.5.
+        verbose (bool, optional): if True, print out accuracy, precision, recall, f1, and auc. Defaults to True.
+        cm (bool, optional): if True, print out the confusion matrix. Defaults to True.
+    """
+    pred = np.where(input > threshold, 1, 0)
+    accuracy = accuracy_score(target, pred)
+    precision = precision_score(target, pred)
+    recall = recall_score(target, pred)
+    f1 = f1_score(target, pred)
+    auc = roc_auc_score(target, input)
     
-    # print out AUC / recall / precision
-
-    # print out confusion matrix
-
-    pass
+    if verbose:
+        print(f"accuracy: {accuracy:.3f}")
+        print(f"precision: {precision:.3f}")
+        print(f"recall: {recall:.3f}")
+        print(f"f1: {f1:3f}")
+        print(f"auc: {auc:3f}")
+    
+    if cm:
+        matrix = confusion_matrix(target, pred)
+        display_labels = ["Miss", "Goal"]
+        sns.heatmap(matrix, annot=True, fmt="d", xticklabels=display_labels, yticklabels=display_labels)
+        plt.show()
 
 def compare_scatter(
     pred,
