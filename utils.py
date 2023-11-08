@@ -87,8 +87,8 @@ def evaluate(
         print(f"accuracy: {accuracy:.3f}")
         print(f"precision: {precision:.3f}")
         print(f"recall: {recall:.3f}")
-        print(f"f1: {f1:3f}")
-        print(f"auc: {auc:3f}")
+        print(f"f1: {f1:.3f}")
+        print(f"auc: {auc:.3f}")
     
     if cm:
         matrix = confusion_matrix(target, pred)
